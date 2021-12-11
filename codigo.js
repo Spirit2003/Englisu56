@@ -144,6 +144,7 @@ function gameOver(){
     if(posicionActualBola[1] <= 0){
         clearInterval(timerId)
         document.removeEventListener('keydown',moverUsuario)
+<p><button type="reset">Reset</button></p> 
     }
 }
 
